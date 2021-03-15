@@ -13,10 +13,17 @@ public class AppMaquina {
         Productos gaseosa= new Productos("Quatro",6);
         Productos ponque= new Productos("Gansito", 8);
         Productos papita= new Productos("Margarita", 0);
+        Productos dulces= new Productos("Sparkies",2);
+        Productos chocolate= new Productos("Chocolatina Jet", 4);
+        Productos jugo= new Productos("Hit", 7);
+        Productos cafe= new Productos("Sobre Cafe instantaneo",3);
+        Productos agua= new Productos("cristal", 2);
+        Productos energizante= new Productos("Mosnter", 1);
+        Productos mani= new Productos("La especial",4);
 
         Maquina Maquina = new Maquina("spenser");
         Maquina.productos = new ArrayList<>();
-        Maquina.getProductos().addAll(Arrays.asList(gaseosa,ponque,papita));
+        Maquina.getProductos().addAll(Arrays.asList(gaseosa,ponque,papita,dulces,chocolate,jugo,cafe,agua,energizante,mani));
         System.out.println("la cantidad de productos es : " + Maquina.productos.size());
         System.out.println("los productos son : ");
         Maquina.mostrarProductos();
