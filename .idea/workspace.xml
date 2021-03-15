@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0af2f59-96b4-4a0b-a31b-1c61ff43e85a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scr/banco/app/Aplicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/banco/dominio/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/banco/dominio/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/banco/dominio/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mis codigos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mis codigos.iml" afterDir="false" />
+    <list default="true" id="d0af2f59-96b4-4a0b-a31b-1c61ff43e85a" name="Default Changelist" comment="Mi git">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Mis codigos/banco/app/Aplicacion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Mis codigos/banco/dominio/Banco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Mis codigos/banco/dominio/CuentaBancaria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Mis codigos/banco/dominio/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/dispensadoraComida/app/AppMaquina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/dispensadoraComida/dominio/Maquina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/dispensadoraComida/dominio/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/tour/app/AppTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/tour/dominio/corredor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/tour/dominio/equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/tour/dominio/etapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/tour/dominio/tour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/app/Aplicacion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oiazYyujJmwlKJKRb0BqdJti1g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +43,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Codigos del profesor" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RunManager" selected="Application.AppTour">
+    <configuration name="AppMaquina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dispensadoraComida.app.AppMaquina" />
+      <module name="Mis codigos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dispensadoraComida.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tour.app.AppTour" />
+      <module name="Mis codigos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tour.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppTour" />
+        <item itemvalue="Application.AppMaquina" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613772127248</updated>
     </task>
+    <task id="LOCAL-00001" summary="Mi git">
+      <created>1613772799335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613772799335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +110,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mi git" />
+    <MESSAGE value="Intento 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intento 7" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mis_codigos$AppTour.ic" NAME="AppTour Coverage Results" MODIFIED="1615772244543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tour.app.*</FILTER>
+    </SUITE>
   </component>
 </project>
