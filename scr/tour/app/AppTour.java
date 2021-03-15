@@ -20,12 +20,6 @@ public class AppTour {
         Paisas.corredorlist = new ArrayList<>();
         Paisas.corredorlist.addAll(Arrays.asList(sneyder,Brayan,Covid,Kevin,Ander));
 
-
-
-
-
     }
-
-
 
 }

@@ -94,10 +94,12 @@ public class Maquina {
     }
 
     public String getMarca() {
+
         return marca;
     }
 
     public Productos getProducto() {
+
         return producto;
     }
 

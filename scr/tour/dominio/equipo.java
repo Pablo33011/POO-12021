@@ -2,7 +2,7 @@ package tour.dominio;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 public class equipo {
     private String nombreEquipo;
@@ -21,10 +21,21 @@ public class equipo {
 
         }
     }
+    /*public void getCorredoresOrdenados(){
+       List<corredor>corredoresOrdenaros;
+      corredoresOrdenaros= corredorlist.stream().sorted(corredoresOrdenaros.));
+      corredorlist=corredoresOrdenaros;
+        corredoresOrdenaros.forEach(corredor -> {
+            System.out.println(corredor.getNombre());
+            System.out.println(corredor.getEdad());
+        });
+  }*/
+
+
     public void getCorredoresOrdenados(){
        List<corredor>corredoresOrdenaros = null;
 
-      corredorlist=corredoresOrdenaros;
+      corredorlist= null;
         corredoresOrdenaros.forEach(corredor -> {
             System.out.println(corredor.getNombre());
             System.out.println(corredor.getEdad());
