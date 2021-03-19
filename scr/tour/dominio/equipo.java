@@ -1,46 +1,23 @@
 package tour.dominio;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class equipo {
     private String nombreEquipo;
-    public List<corredor>corredorlist;
+    public List<ciclista> corredorlist;
 
     public equipo(String nombreEquipo) {
         this.nombreEquipo = nombreEquipo;
     }
 
-    public static void getCorredoresOrdenados(List<corredor> lista){
-        int clave, i;
-        int n=lista.size();
-        for (int j=1;j<n;j++){
-            clave = lista.indexOf(j);
-            i=j-1;
-
-        }
+    public List<ciclista> getCorredorlist() {
+        return corredorlist;
     }
-    /*public void getCorredoresOrdenados(){
-       List<corredor>corredoresOrdenaros;
-      corredoresOrdenaros= corredorlist.stream().sorted(corredoresOrdenaros.));
-      corredorlist=corredoresOrdenaros;
-        corredoresOrdenaros.forEach(corredor -> {
-            System.out.println(corredor.getNombre());
-            System.out.println(corredor.getEdad());
-        });
-  }*/
 
-
-    public void getCorredoresOrdenados(){
-       List<corredor>corredoresOrdenaros = null;
-
-      corredorlist= null;
-        corredoresOrdenaros.forEach(corredor -> {
-            System.out.println(corredor.getNombre());
-            System.out.println(corredor.getEdad());
-        });
-  }
+    public void setCorredorlist(List<ciclista> corredorlist) {
+        this.corredorlist = corredorlist;
+    }
 
     public String getNombreEquipo() {
         return nombreEquipo;

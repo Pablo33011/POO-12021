@@ -1,11 +1,11 @@
 package tour.dominio;
 
-public class corredor {
+public class ciclista {
     private int edad;
     private String nombre;
     private int posicionLLegada;
 
-    public corredor(int edad, String nombre, int posicionLLegada) {
+    public ciclista(int edad, String nombre, int posicionLLegada) {
         this.edad = edad;
         this.nombre = nombre;
         this.posicionLLegada = posicionLLegada;

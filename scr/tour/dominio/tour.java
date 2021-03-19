@@ -1,44 +1,60 @@
 package tour.dominio;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class tour {
+    public String nombreTour;
     private List<equipo> equipos;
     private List<etapa> etapas;
-    private List<corredor> todosCorredores;
+    private List<ciclista> todosCorredores;
 
-
-    public void getEquipos(){
-        equipos.forEach(equipo -> {
-            System.out.println(equipo.getNombreEquipo());
-        });
+    public tour(String nombreTour) {
+        this.nombreTour = nombreTour;
     }
 
-    public void getEtapas(){
-        etapas.forEach(etapa -> {
-            System.out.println(etapa.getLugar());
-        });
+    public String getNombreTour() {
+        return nombreTour;
     }
-     public corredor getTop10(){
-        List<corredor> ganadores;
-        todosCorredores.addAll(getTodosCorredores());
-         return null;
-     }
 
+    public void setNombreTour(String nombreTour) {
+        this.nombreTour = nombreTour;
+    }
+
+    public List<equipo> getEquipos() {
+        return equipos;
+    }
 
     public void setEquipos(List<equipo> equipos) {
         this.equipos = equipos;
+    }
+
+    public List<etapa> getEtapas() {
+        return etapas;
     }
 
     public void setEtapas(List<etapa> etapas) {
         this.etapas = etapas;
     }
 
-    public List<corredor> getTodosCorredores() {
+    public List<ciclista> getTodosCorredores() {
         return todosCorredores;
     }
 
-    public void setTodosCorredores(List<corredor> todosCorredores) {
+    public void setTodosCorredores(List<ciclista> todosCorredores) {
         this.todosCorredores = todosCorredores;
+    }
+
+    public void getCorredoresOrdenadosEdad(equipo e){
+        List<ciclista>corredoresOrdenaros;
+        corredoresOrdenaros= (List<ciclista>) e.getCorredorlist().stream().sorted(Comparator.comparing(ciclista::getEdad));
+
+
+
+        corredoresOrdenaros.forEach(corredor -> {
+            System.out.println(corredor.getNombre());
+            System.out.println(corredor.getEdad());
+        });
+
     }
 }

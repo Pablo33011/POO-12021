@@ -1,25 +1,36 @@
 package tour.app;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import tour.dominio.etapa;
 import tour.dominio.equipo;
-import tour.dominio.corredor;
+import tour.dominio.ciclista;
+import tour.dominio.tour;
 
 public class AppTour {
     public static void main(String[] args){
-        etapa paris= new etapa("Paris") ;
-        equipo Paisas = new equipo("Los Paisas");
-        corredor sneyder = new corredor(35,"sneyder",1);
-        corredor Brayan = new corredor(37,"Brayan",2);
-        corredor Covid = new corredor(31,"Covid Julian",3);
-        corredor Kevin = new corredor(38,"Kevin",4);
-        corredor Ander = new corredor(22,"Ander",5);
-        Paisas.corredorlist = new ArrayList<>();
-        Paisas.corredorlist.addAll(Arrays.asList(sneyder,Brayan,Covid,Kevin,Ander));
+        etapa paris= new etapa("paris") ;
+        tour francia = new tour("francia");
+        equipo colombia = new equipo("colombia");
+        ciclista jairo = new ciclista(35,"jairo",1);
+        ciclista rigoberto = new ciclista(37,"rigoberto",2);
+        ciclista andres = new ciclista(31,"andres",3);
+        ciclista juan = new ciclista(38,"juan",4);
+        ciclista sara = new ciclista(22,"sara",5);
+        colombia.corredorlist = new ArrayList<>();
+        francia.getEquipos().add(colombia);
+        francia.getEquipos().addAll(Arrays.asList(colombia));
+        francia.getEquipos().addAll(Arrays.asList(colombia));
+        francia.getEtapas().addAll(Arrays.asList(paris));
+        colombia.corredorlist.addAll(Arrays.asList(jairo,rigoberto,andres,juan,sara));
+
+
+        francia.getCorredoresOrdenadosEdad(colombia);
+
+
+
 
     }
+
 
 }
