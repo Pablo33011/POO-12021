@@ -4,8 +4,10 @@ import java.util.List;
 
 
 public class equipo {
-    private String nombreEquipo;
+    public String nombreEquipo;
     public List<ciclista> corredorlist;
+
+    public List<equipo> equipoList;
 
     public equipo(String nombreEquipo) {
         this.nombreEquipo = nombreEquipo;
@@ -26,5 +28,6 @@ public class equipo {
     public void setNombreEquipo(String nombreEquipo) {
         this.nombreEquipo = nombreEquipo;
     }
+
 
 }
