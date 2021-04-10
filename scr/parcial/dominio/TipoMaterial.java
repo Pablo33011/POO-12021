@@ -1,9 +1,10 @@
 package parcial.dominio;
 
 public class TipoMaterial {
-    String PELICULA = "Pelicula";
-    String SERIE = "Serie";
-    String DOCUMENTAL = "Serie";
-    String STAND_UP = "Stand Up";
-    String ANIMADAS = "Animadas";
+    public static String Pelicula = "Pelicula";
+    public static String Serie = "Serie";
+    public static String Stand_Up = "Stand Up";
+    public static String Animadas = "Animadas";
+    public static String Documental = "Documental";
+
 }
