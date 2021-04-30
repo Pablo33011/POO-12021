@@ -1,7 +1,7 @@
-package desafio.App;
+package Calculadora.App;
 
 
-import desafio.Dominio.Operaciones;
+import Calculadora.Dominio.Operaciones;
 
 import javax.swing.*;
 import java.util.Arrays;

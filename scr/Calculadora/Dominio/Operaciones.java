@@ -1,4 +1,4 @@
-package desafio.Dominio;
+package Calculadora.Dominio;
 
 
 public class Operaciones {
