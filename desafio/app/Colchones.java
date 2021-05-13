@@ -15,7 +15,7 @@ public class Colchones {
         Empleado david=new Directo("David", 2895000);
         Empleado pedro=new Promotor("Pedro", 1500,250, 48);
         Empleado gustavo=new Freelance("Gustavo", 52500,60);
-        List<Empleado> e= Arrays.asList(juan, julian, carolina, johanna, david, pedro, gustavo);
+        List<Empleado> e= Arrays.asList(juan, julian, carolina, johanna, david, gustavo, pedro);
 
 
         nomin.setEmpleados(e);
